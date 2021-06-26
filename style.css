@@ -1,11 +1,9 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Mulish', sans-serif; 
+    font-family: 'Mulish', sans-serif;
 }
 .sectionone{
     display: flex;
@@ -216,7 +214,7 @@
 
 .mile{
     position: absolute;
-    width: 92px;
+    width: 83px;
     height: 38px;
     left: 144px;
     top: 1348px;
@@ -252,8 +250,9 @@
 }
 .idea{
     position: absolute;
-    left: 388px;
-    top: 1378px;
+    left: 384px;
+    top: 1377px;
+    width: 87px;
 }
 .line1{
     position: absolute;
@@ -264,7 +263,7 @@
     position: absolute;
     width: 89px;
     height: 38px;
-    left: 912px;
+    left: 908px;
     top: 1680px;
     font-style: normal;
     font-weight: 900;
@@ -295,14 +294,15 @@ top: 1692px;
 }
 .headache{
     position: absolute;
-    left: 1138px;
-    top: 1712px;
+    left: 1137px;
+    top: 1714px;
+    width: 83px;
 }
 .mile3{
     position: absolute;
     width: 82px;
     height: 38px;
-    left: 361px;
+    left: 355px;
     top: 1938px;
     font-style: normal;
     font-weight: 900;
@@ -335,8 +335,9 @@ top: 2068px;
 
 .building1{
     position: absolute;
-    left: 235px;
+    left: 238px;
     top: 2090px;
+    width: 80px;
 }
 .line2{
     position: absolute;
@@ -348,7 +349,7 @@ top: 2068px;
     position: absolute;
     width: 82px;
     height: 38px;
-    left: 833px;
+    left: 826px;
     top: 2270px;
     font-style: normal;
     font-weight: 900;
@@ -381,12 +382,13 @@ top: 2068px;
     position: absolute;
     left: 1060px;
     top: 2312px;
+    width: 82px;
 }
 .mile5{
     position: absolute;
     width: 82px;
     height: 38px;
-    left: 159px;
+    left: 154px;
     top: 2463px;
     font-style: normal;
     font-weight: 900;
@@ -429,6 +431,7 @@ top: 2068px;
     position: absolute;
     left: 392px;
     top: 2484px;
+    width: 82px;
 }
 
 .values{
@@ -693,7 +696,7 @@ top: 2068px;
 }
 .partner{
     position: absolute;
-    width: 183px;
+    width: 189px;
     height: 24px;
     left: 808px;
     top: 53px;
@@ -757,9 +760,9 @@ top: 2068px;
 @media screen and (max-width: 480px) {
     .p{
         position: absolute;
-        width: 94px;
-        height: 38px;
-        margin-left: 40px;
+        width: 64px;
+        height: 28px;
+        margin-left: 22px;
         margin-top: 56px;
         background: #c4c4c4;
     }
@@ -769,23 +772,24 @@ top: 2068px;
         position: absolute;
         width: 433px;
         height: 61px;
-        margin-left: 47px;
+        margin-left: 56px;
         margin-top: 408px;
         color: #4B4B58;
         font-size: 25px;
     }
     .offer{
         position: absolute;
-        width: 260px;
+        width: 280px;
         height: 48px;
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
         line-height: 150%;
         letter-spacing: -0.02em;
-        margin-left: 46px;
+        margin-left: 24px;
         margin-top: 198px;
         color: #a5a5b3;
+        text-align: center;
     }
     .list {
         position: absolute;
@@ -808,27 +812,628 @@ top: 2068px;
     }
     .sitdown {
         position: absolute;
-        width: 130px;
-        height: 102px;
-        left: 810px;
+        width: 140px;
+        height: 104px;
+        left: 796px;
         top: 215px;
         border-radius: 4px;
     }
     .givers {
         position: absolute;
-        width: 130px;
+        width: 140px;
         height: 170px;
-        left: 810px;
+        left: 796px;
         top: 324px;
         border-radius: 4px;
     }
     .chatters {
         position: absolute;
-        width: 130px;
+        width: 140px;
         height: 280px;
-        left: 946px;
+        left: 941px;
         top: 215px;
         border-radius: 4px;
     }
+    .easier {
+        position: absolute;
+        width: 280px;
+        height: 86px;
+        left: 24px;
+        top: 780px;
+        font-style: normal;
+        font-weight: 900px;
+        font-size: 25px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #4b4b5b;
+    }
+    .sharing {
+        position: absolute;
+        width: 280px;
+        height: 72px;
+        left: 22px;
+        top: 877px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #a5a5b3;
+    }
+    .milestone {
+        position: absolute;
+        width: 155px;
+        height: 43px;
+        left: 87px;
+        top: 989px;
+        font-style: normal;
+        font-weight: 900px;
+        font-size: 34px;
+        line-height: 43px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #4b4b5b;
+    }
+    .started {
+        position: absolute;
+        width: 300px;
+        height: 24px;
+        left: 12px;
+        top: 1054px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #a5a5b5;
+    }
+    .ellipseone {
+        position: absolute;
+        width: 131px;
+        height: 131px;
+        left: 97px;
+        top: 1148px;
+        background-color: #FFE4E7;
+    }
+    .idea {
+        position: absolute;
+        left: 118px;
+        top: 1167px;
+        width: 87px;
+    }
+    .mile {
+        position: absolute;
+        width: 83px;
+        height: 38px;
+        left: 121px;
+        top: 1308px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 150%;
+        text-align: center;
+        color: #4b4b5b;
+    }
+    .understanding {
+        position: absolute;
+        width: 170px;
+        height: 96px;
+        left: 79px;
+        top: 1365px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: -0.02em;
+        color: #a5a5b5;
+        text-align: center;
+    }
+    .line1 {
+        position: absolute;
+        left: 1px;
+        top: 1428px;
+        width: 0.2px;
+        /* background: red; */
+    }
+    .ellipse22 {
+        position: absolute;
+        width: 131px;
+        height: 131px;
+        left: 100px;
+        top: 1504px;
+    }
+    .headache {
+        position: absolute;
+        left: 124px;
+        top: 1527px;
+        width: 83px;
+    }
+    .mile2 {
+        position: absolute;
+        width: 89px;
+        height: 38px;
+        left: 118px;
+        top: 1660px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 150%;
+        text-align: center;
+        color: #4B4B58;
+    }
+    .painpoint {
+        position: absolute;
+        width: 179px;
+        height: 96px;
+        left: 76px;
+        top: 1719px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: -0.02em;
+        color: #A5A5B3;
+        text-align: center;
+    }
+    .line2 {
+        position: absolute;
+        left: 71px;
+        top: 1638px;
+        width: 0.2px;
+    }
+    .ellipse23 {
+        position: absolute;
+        width: 131px;
+        height: 131px;
+        left: 100px;
+        top: 1858px;
+    }
+    .building1 {
+        position: absolute;
+        left: 126px;
+        top: 1880px;
+        width: 80px;
+    }
+    .mile3 {
+        position: absolute;
+        width: 82px;
+        height: 38px;
+        left: 123px;
+        top: 2017px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 150%;
+        text-align: center;
+        color: #4B4B58;
+    }
+    .building {
+        position: absolute;
+        width: 168px;
+        height: 96px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: -0.02em;
+        color: #A5A5B3;
+        margin-left: 81px;
+        margin-top: 2078px;
+        text-align: center;
+    }
+    .line3 {
+        position: absolute;
+        left: 9px;
+        top: 1893px;
+        width: 0.1px;
+        background: red;
+    }
+    .ellipse24 {
+        position: absolute;
+        width: 131px;
+        height: 131px;
+        left: 100px;
+        top: 2212px;
+    }
+    .delivery {
+        position: absolute;
+        left: 126px;
+        top: 2239px;
+        width: 82px;
+    }
+    .mile4 {
+        position: absolute;
+        width: 82px;
+        height: 38px;
+        left: 123px;
+        top: 2371px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 150%;
+        text-align: center;
+        color: #4B4B58;
+    }
+    .pixels {
+        position: absolute;
+        width: 150px;
+        height: 72px;
+        left: 88px;
+        top: 2424px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: -0.02em;
+        color: rgb(165, 165, 179);
+        text-align: center;
+    }
+    .ellipse25 {
+        position: absolute;
+        width: 131px;
+        height: 131px;
+        left: 100px;
+        top: 2534px;
+    }
+    
+    .test1 {
+        position: absolute;
+        left: 133px;
+        top: 2561px;
+        width: 82px;
+    }
+    .mile5 {
+        position: absolute;
+        width: 82px;
+        height: 38px;
+        left: 124px;
+        top: 2695px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 150%;
+        text-align: center;
+        color: #4B4B58;
+    }
+    .test {
+        position: absolute;
+        width: 163px;
+        height: 72px;
+        left: 84px;
+        top: 2747px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: -0.02em;
+        color: #A5A5B3;
+        text-align: center;
+    }
+    .line4 {
+        position: absolute;
+        left: 26px;
+        top: 2313px;
+        width: 0.1px;
+        background: red;
+    }
+    .values {
+        position: absolute;
+        width: 195px;
+        height: 43px;
+        left: 66px;
+        top: 2875px;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 34px;
+        line-height: 43px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #4B4B58;
+    }
+    .paramount {
+        position: absolute;
+        width: 310px;
+        height: 48px;
+        left: 10px;
+        top: 2930px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #A5A5B3;
+    }
+    .lineup1 {
+        position: absolute;
+        width: 297px;
+        height: 236px;
+        left: 58.6px;
+        top: 3030px;
+        background: #FFFAEA;
+        border-radius: 4px;
+    }
+    .reliable {
+        position: absolute;
+        width: 290px;
+        height: 30px;
+        left: 5px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+      
+        color: #4B4B58;
+        padding-top: 1.5em;
+    }
+    .dependable {
+        position: absolute;
+        width: 285.1px;
+        height: 195px;
+        top: 34px;
+        left: -6px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: -0.02em;
+        color: #A5A5B3;
+        padding-top: 3.5em;
+        margin-left: 0.8em;
+        text-align: center;
+    }
+    .lineup2 {
+        position: absolute;
+        width: 297px;
+        height: 236px;
+        left: 58.6px;
+        top: 3287px;
+        background: #fffaea;
+        border-radius: 4px;
+    }
+    .commitment {
+        position: absolute;
+        width: 128px;
+        height: 30px;
+        left: 80px;
+        top: 30px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+        text-align: center;
+        color: #4B4B58;
+    }
+    .dedicated {
+        position: absolute;
+        width: 278px;
+        height: 195px;
+        left: 10px;
+        top: 90px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: -0.02em;
+        color: #A5A5B3;
+        text-align: center;
+    }
+    .lineup3 {
+        position: absolute;
+        width: 297px;
+        height: 236px;
+        left: 58.6px;
+        top: 3543px;
+        background: #FFFAEA;
+        border-radius: 4px;
+    }
+    .trans {
+        position: absolute;
+        width: 135px;
+        height: 30px;
+        left: 78px;
+        top: 30px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+        text-align: center;
+        color: #4B4B58;
+    }
+    .authentic {
+        position: absolute;
+        width: 247px;
+        height: 195px;
+        left: 25px;
+        top: 90px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: -0.02em;
+        color: #A5A5B3;
+        text-align: center;
+    }
+    .subscribe {
+        position: absolute;
+        width: 94px;
+        height: 30px;
+        left: 97px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 150%;
+        color: #4B4B58;
+        top: -52px;
+    }
+    .email {
+        position: absolute;
+        left: 7px;
+        right: 0%;
+        top: 8px;
+        bottom: 0%;
+        background: #ffffff;
+        border: 1px solid #818195;
+        box-sizing: border-box;
+        border-radius: 4px;
+        height: 56px;
+        width: 169px;
+        border-radius: 0px;
+        font-size: 9px;
+    }
+    .btnsub {
+        color: #FFE4E7;
+        display: flex;
+        flex-direction: row;
+        /* align-items: center; */
+        padding: 20px 24px;
+        position: absolute;
+        width: 110px;
+        height: 56px;
+        right: 0px;
+        top: calc(50% - 334px/2);
+        left: 176px;
+        background: #4B4B58;
+        border-radius: 4px;
+        border: none;
+        /* text-align: center; */
+    }
+    .company {
+        position: absolute;
+        width: 80px;
+        height: 24px;
+        left: 1px;
+        top: 100px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: -0.02em;
+        color: #4B4B58;
+    }
+    .about1 {
+        position: absolute;
+        width: 45px;
+        height: 24px;
+        left: 1px;
+        top: 144px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: -0.02em;
+        color: #4B4B58;
+    }
+    .contact1 {
+        position: absolute;
+        width: 57px;
+        height: 24px;
+        left: 1px;
+        top: 185px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: -0.02em;
+        color: #4B4B58;
+    }
+    .faq1 {
+        position: absolute;
+        width: 32px;
+        height: 24px;
+        left: 4px;
+        top: 229px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: -0.02em;
+        color: #4B4B58;
+    }
+    .touch {
+        position: absolute;
+        width: 140px;
+        height: 24px;
+        left: 132px;
+        top: 99px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: -0.02em;
+        color: #4B4B58;
+    }
+    .partner {
+        position: absolute;
+        width: 189px;
+        height: 24px;
+        left: 134px;
+        top: 144px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: -0.02em;
+        color: #A5A5B3;
+    }
+    .support {
+        position: absolute;
+        width: 146px;
+        height: 24px;
+        left: 134px;
+        top: 185px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: -0.02em;
+        color: #4B4B58;
+    }
+    .twitter {
+        position: absolute;
+        left: 13.25%;
+        top: 63.5%;
+        border: solid;
+        padding: 0.7em;
+        background: #E4E4E9;
+        border-radius: 50%;
+        border: none;
+        width: 39px;
+    }
+    .fb {
+        position: absolute;
+        left: 19%;
+        top: 63.5%;
+        border: solid;
+        padding: 0.7em;
+        background: #E4E4E9;
+        border-radius: 50%;
+        border: none;
+        width: 40px;
+    }
+    .ig {
+        position: absolute;
+        left: 24.9%;
+        top: 63.5%;
+        border: solid;
+        padding: 0.7em;
+        background: #E4E4E9;
+        border-radius: 50%;
+        border: none;
+        width: 40px;
+    }
+    .lastpage {
+        position: absolute;
+        width: 1002.93px;
+        height: 350px;
+        left: 19px;
+        top: 3876px;
+    }
+    
+    
+            
 }
 
